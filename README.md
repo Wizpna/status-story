@@ -12,6 +12,7 @@ Screenshot below:
 <p align="center">
   <img src="https://github.com/Wizpna/status-story/blob/master/screenshot/70477007_1101768803348364_6376032057906167808_n.png" width="350" title="Screenshot">
   <img src="https://github.com/Wizpna/status-story/blob/master/screenshot/70808386_2203756036581793_4369750965910241280_n.png" width="350" alt="accessibility text">
+  <img src="https://github.com/Wizpna/status-story/blob/master/screenshot/69865531_1278271805666423_5868218498039152640_n.png" width="350" title="Screenshot">
 </p>
 
 <p align="center">
