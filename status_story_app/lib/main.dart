@@ -35,18 +35,20 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.pink,
-        title: Text("Status Stories"),
-        centerTitle: true,
-      ),
+
       body: StoryView(
         [
+          //The StoryItem.text accepts a text, you can add any text you want
           StoryItem.text(
             "WOW !!! i built my first status story",
             Colors.pinkAccent,
             fontSize: 25
           ),
+
+          //The StoryItem.pageImage accepts an image, you can add any image you want
+          //In this tutorial, Cached Network Image Provider was used so as to load the image and also cache images
+          //StoryItem.pageImage accepts a caption
+          //The caption describes the image above
           StoryItem.pageImage(
             CachedNetworkImageProvider(
                 "https://i.pinimg.com/originals/f6/eb/53/f6eb535411056b553dfdec1665387c0c.jpg"),
@@ -67,6 +69,9 @@ class _HomeState extends State<Home> {
               "https://i0.pickpik.com/photos/836/957/310/adventure-jump-hipster-ext-preview.jpg"),
             caption: "Jumping beside cliff during daytime",
           ),
+
+          //The StoryItem.pageGif accepts a GIf, you can add any Gif you want
+          //It accepts a caption. The caption describes the image above
           StoryItem.pageGif(
             "https://media.giphy.com/media/XcA8krYsrEAYXKf4UQ/giphy.gif",
             caption: "Thanks for watching",
