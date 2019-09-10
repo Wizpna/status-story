@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
           //The StoryItem.pageImage accepts an image, you can add any image you want
           //In this tutorial, Cached Network Image Provider was used so as to load the image and also cache images
           //StoryItem.pageImage accepts a caption
-          //The caption describes the image above
+          //The caption describes the image
           StoryItem.pageImage(
             CachedNetworkImageProvider(
                 "https://i.pinimg.com/originals/f6/eb/53/f6eb535411056b553dfdec1665387c0c.jpg"),
@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
           ),
 
           //The StoryItem.pageGif accepts a GIf, you can add any Gif you want
-          //It accepts a caption. The caption describes the image above
+          //It accepts a caption. The caption describes the Gif
           StoryItem.pageGif(
             "https://media.giphy.com/media/XcA8krYsrEAYXKf4UQ/giphy.gif",
             caption: "Thanks for watching",
