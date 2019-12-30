@@ -4,7 +4,7 @@ This is a simple project Demonstrate how to build Whatsapp, Messenger and Instag
 
 You can read an article about this project, which is on medium: https://blog.usejournal.com/fastest-way-to-build-your-whatsapp-status-story-with-flutter-838fcee973d3
 
-<img src="https://miro.medium.com/max/1463/1*wtdKImZJ72OAfC53G2Hq9Q.jpeg"  title="Google_Search">
+<img src="https://miro.medium.com/max/1025/1*NBG7TfAvCtoN-ew7aymWdw.jpeg"  title="Google_Search">
 
 Contact - Let's become friends
 
