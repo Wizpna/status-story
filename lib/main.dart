@@ -77,6 +77,16 @@ class _HomeState extends State<Home> {
             caption: "Thanks for watching",
             controller: storyController,
           ),
+          
+          //The StoryItem.pageVideo accepts a Video.
+          //It accepts a caption. The caption describes the video
+          StoryItem.pageVideo(
+          "https://firebasestorage.googleapis.com/v0/b/tactile-timer-267314.appspot.com/o/Hang%20-%2030902.mp4?alt=media&token=74eec54b-7c4a-43dc-bd7a-522a494b69c0",
+          caption: "title of the video",
+          controller: storyController,
+          shown: true,
+          duration: Duration(m)
+          ),
         ],
         onStoryShow: (s) {
           print("Showing a story");
